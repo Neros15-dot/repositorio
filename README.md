@@ -27,7 +27,7 @@ python3 setup.py install
 ## 📚 Example
 
 ```bash
-ignorant 33 644637111
+ignorant +19163169511
 ```
 
 
@@ -43,8 +43,8 @@ from ignorant.modules.shopping.amazon import amazon
 
 
 async def main():
-    phone="644637111"
-    country_code="33"
+    phone="9163169511"
+    country_code="+1"
     client = httpx.AsyncClient()
     out = []
 
